@@ -1,0 +1,104 @@
+.app-container {
+  max-width: 800px;
+  margin: 60px auto; /* agrega margenes al contenedor */
+  padding: 30px;
+  background-color: #c6dfe7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(1, 1, 1, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family:cursive;
+  border-bottom: 2px solid #000000; /* linea bajo el texto */
+  padding-bottom: 10px;
+}
+
+/* Estilo para el mensaje de lista vacía */
+.empty-message {
+  text-align: center;
+  color: #bfc5ca;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+
+.task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex-grow: 1; /* Hace que el input ocupe el espacio restante */
+  padding: 10px 15px;
+  border: 2px solid #c4c2c2;
+  border-radius: 8px 0 0 8px; /* Bordes redondeados solo a la izquierda */
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.task-input:focus {
+  border-color: #008cff; /* Borde al enfocar */
+  outline: none;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #49e97e; 
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0 6px 6px 0; /* Bordes redondeados */
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #23dd23; /* color distinto al pasar el raton */
+}
+
+.task-list {
+  list-style: none; /* Quita los puntos de la lista */
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between; /* Mueve el texto a la izquierda y el botón a la derecha */
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #dbe7e7;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.task-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.task-text {
+  font-size: 20px;
+  color: #495057;
+  flex-grow: 1;
+}
+
+.delete-button {
+  padding: 8px 12px;
+  background-color: #dd4a59; /*Rojo para la eliminación*/
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #ff0000; /*color al pasar el ratón*/
+}

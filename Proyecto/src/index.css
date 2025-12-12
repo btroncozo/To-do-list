@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background-color: #e9eff5;
+  background-image: url("../src/Imagenes/d4761bd982d2f7afced0905bf053ccfa.jpg"); /*imagen de fondo*/
+  background-position: center; /*a continuacion metodos para ajustar la imagen como fondo de la To do List*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh; /*define el tamaño minimo que puede tener la pagina*/
+
+}
